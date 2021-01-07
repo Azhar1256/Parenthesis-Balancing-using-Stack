@@ -61,7 +61,7 @@ class Array:
             print("This expression is NOT correct.")
             print('Error at character #',positionArray[self.s-1],".'" ,self.peek(),"'-is not closed",sep='')
             return
-
+ 
 stack_2 = Array()
 stack_2.findout('1+2*(3/4)')
 stack_2.empty()
